@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "Scrap para teste da ferramenta puppeteer",
+  "main": "index.js",
+  "author": "Alexandre Gomes",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sucrase-node src/server.ts"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "puppeteer": "^3.3.0",
+    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra-plugin-adblocker": "^2.11.3",
+    "puppeteer-extra-plugin-stealth": "^2.4.9"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.155",
+    "@types/puppeteer": "^3.0.0",
+    "sucrase": "^3.15.0"
+  }
+}
